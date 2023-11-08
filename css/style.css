@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+img,
+li {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --Poppins: "Poppins", sans-serif;
+  --primary_color: #1c1e53;
+  --secondary_color: #000000;
+  --white_color: #fff;
+  --button_color: #fcd980;
+  --sectoin_banner_color: #f4f6fc;
+}
+/* ============= navbar css start =========== */
+#navbar_part {
+  background: var(--primary_color);
+  padding: 32px 0;
+}
+#navbar_part .custom_navbar li a {
+  color: var(--white_color);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 26px;
+}
+#navbar_part .btn {
+  border: none;
+  background-color: transparent;
+  color: var(--white_color);
+
+  padding: 16px 45px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.37);
+}
+#navbar_part .banner_left h1 {
+  color: var(--white_color);
+
+  font-family: var(--Poppins);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+#navbar_part .banner_left p {
+  color: var(--white_color);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#navbar_part .view_work {
+  padding: 15px 55px;
+  background: var(--button_color);
+  border-radius: 41px;
+}
+#navbar_part .view_pricing a {
+  line-height: 0;
+}
+/* ============= navbar css end =========== */
