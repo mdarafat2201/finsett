@@ -12,6 +12,7 @@ ol {
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 img {
   vertical-align: middle;
@@ -33,15 +34,16 @@ li {
 :root {
   --Poppins: "Poppins", sans-serif;
   --primary_color: #1c1e53;
-  --secondary_color: #000000;
+  --secondary_color: #282938;
   --white_color: #fff;
   --button_color: #fcd980;
   --sectoin_banner_color: #f4f6fc;
+  --icon-color: #2405f2;
 }
 /* ============= navbar css start =========== */
 #navbar_part {
   background: var(--primary_color);
-  padding: 32px 0;
+  padding: 32px 0 100px;
 }
 #navbar_part .custom_navbar li a {
   color: var(--white_color);
@@ -84,5 +86,39 @@ li {
 }
 /* ============= navbar css end =========== */
 /* ============= work part css start =========== */
-
+#work_part {
+  padding: 100px 0;
+}
+#work_part .work_left_side h1 {
+  color: var(--primary_color);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+}
+#work_part .work_left_side p {
+  color: var(--secondary_color);
+  font-family: var(--secondary_color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#work_part .work_left_side a {
+  color: var(--icon-color);
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+}
+#work_part .Strategy h2 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 32px;
+  font-weight: 500;
+}
+#work_part .Strategy p {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
 /* ============= work part css start =========== */
