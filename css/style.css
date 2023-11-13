@@ -264,5 +264,28 @@ li {
   font-weight: 400;
   line-height: 28px;
   text-align: justify;
+  opacity: 0.7;
 }
 /* ============= Features part css end =========== */
+/* =============  client part css start =========== */
+#client_part {
+  padding: 100px 0;
+}
+#client_part .client_left h2 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#client_part .client_left p {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+#client_part .client_right h4 {
+}
+/* =============  client part css end =========== */
