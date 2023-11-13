@@ -220,3 +220,49 @@ li {
   line-height: 28px;
 }
 /* ============= project part css end =========== */
+/* =============  Features part css start =========== */
+#Features_part {
+  padding: 100px 0;
+  background-color: var(--sectoin_banner_color);
+}
+#Features_part .headinag h6 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+}
+#Features_part .headinag h2 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#Features_part .icon_box {
+  padding: 50px 23px 48px 30px;
+  background-color: var(--white_color);
+  box-shadow: 0px 0px 8px 0px rgba(94, 86, 86, 0.09);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(94, 86, 86, 0.09);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(94, 86, 86, 0.09);
+  transition: all linear 0.3s;
+}
+#Features_part .icon_box:hover {
+  box-shadow: 0px 1px 15px 0px rgba(38, 36, 36, 0.29);
+  -webkit-box-shadow: 0px 1px 15px 0px rgba(38, 36, 36, 0.29);
+  -moz-box-shadow: 0px 1px 15px 0px rgba(38, 36, 36, 0.29);
+}
+#Features_part .icon_box h3 {
+  color: var(--Poppins, #282938);
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 500;
+}
+#Features_part .icon_box p {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+}
+/* ============= Features part css end =========== */
