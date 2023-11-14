@@ -128,6 +128,9 @@ li {
 /* ============= work part css start =========== */
 
 /* ============= project part css srart =========== */
+#project_part {
+  padding: 100px 0;
+}
 #project_part .text_left h3 {
   color: var(--secondary_color, #282938);
   font-family: var(--Poppins);
@@ -308,6 +311,9 @@ li {
 }
 /* =============  client part css end =========== */
 /* =============  faq part css start =========== */
+#faq_part {
+  padding: 100px 0;
+}
 #faq_part .faq_left h3 {
   color: var(--secondary_color, #282938);
   font-family: var(--Poppins);
@@ -344,3 +350,10 @@ li {
   opacity: 0.87;
 }
 /* =============  faq part css end =========== */
+/* ============= inquiry part css start =========== */
+#inquiry_part {
+  padding: 100px 0;
+}
+#inquiry_part .inquiry_right {
+}
+/* =============  inquiry part css end =========== */
