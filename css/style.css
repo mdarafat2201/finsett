@@ -270,6 +270,7 @@ li {
 /* =============  client part css start =========== */
 #client_part {
   padding: 100px 0;
+  background-color: var(--sectoin_banner_color);
 }
 #client_part .client_left h2 {
   color: var(--secondary_color, #282938);
@@ -287,5 +288,59 @@ li {
   opacity: 0.7;
 }
 #client_part .client_right h4 {
+  color: var(--Poppins, #282938);
+  font-family: var(--Poppins);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 48px;
+}
+#client_part .client_right .client_details h5 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+}
+#client_part .client_right .client_details p {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 12px;
+  font-weight: 500;
 }
 /* =============  client part css end =========== */
+/* =============  faq part css start =========== */
+#faq_part .faq_left h3 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#faq_part .faq_left a {
+  color: var(--icon-color, #2405f2);
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+}
+#faq_part .accordion_part .accordion_text_right span {
+  color: var(--icon-color, #2405f2);
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 60px;
+}
+#faq_part .accordion_part .accordion_text_right {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 500;
+}
+#faq_part .accordion_part .overlay_text {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 0 14%;
+  opacity: 0.87;
+}
+/* =============  faq part css end =========== */
