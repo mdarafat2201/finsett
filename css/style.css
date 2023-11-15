@@ -354,8 +354,14 @@ li {
 #inquiry_part {
   padding: 100px 0;
 }
-#inquiry_part .text {
-  overflow: hidden;
+#inquiry_part .inquiry_left img {
+  position: relative;
 }
-
+#inquiry_part .inquiry_left .text_titel {
+  margin: 90px 90px 0;
+  position: absolute;
+}
+#inquiry_part .inquiry_right {
+  background: #1c1e53;
+}
 /* =============  inquiry part css end =========== */

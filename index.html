@@ -558,18 +558,27 @@
     <div id="inquiry_part">
       <div class="container p-0">
         <div class="row">
-          <div class="col-lg-6 text">
+          <div class="col-lg-6">
             <div class="inquiry_left">
               <picture>
                 <img
                   src="./imgs/xyz_imgs.jpg"
                   alt="./imgs/xyz_imgs.jpg"
                   title="xyz_imgs.jpg"
+                  class="img-fluid"
                 />
               </picture>
+              <div class="text_titel">
+                <h2>Building stellar websites for early startups</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  ut enim.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-lg-6 text">
+          <div class="col-lg-6">
             <div class="inquiry_right">
               <h3>Send inquiry</h3>
               <p>
@@ -577,7 +586,33 @@
                 eiusmod tempor incididunt ut labore.
               </p>
               <form action="#">
-                <input type="text" name="" placeholder="Your Name" />
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="Your Name"
+                  />
+                  <label for="floatingInput">Your Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email </label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="url"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="Paste your Figma design URL"
+                  />
+                  <label for="floatingInput">Paste your Figma design URL</label>
+                </div>
               </form>
             </div>
           </div>
