@@ -354,14 +354,127 @@ li {
 #inquiry_part {
   padding: 100px 0;
 }
-#inquiry_part .inquiry_left img {
+#inquiry_part .inquiry_left {
   position: relative;
+  background-color: var(--primary_color);
+}
+#inquiry_part .inquiry_left img {
+  opacity: 0.7;
 }
 #inquiry_part .inquiry_left .text_titel {
-  margin: 90px 90px 0;
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+#inquiry_part .inquiry_left .text_titel .hadig_text {
+  margin-top: 90px;
+  margin-left: 90px;
+}
+#inquiry_part .inquiry_left .text_titel .hadig_text h2 {
+  color: var(--white_color, #fff);
+  font-family: var(--Poppins);
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-right: 72px;
+}
+#inquiry_part .inquiry_left .text_titel .hadig_text p {
+  color: var(--white_color, #fff);
+  font-family: var(--Poppins);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  padding-right: 60px;
 }
 #inquiry_part .inquiry_right {
-  background: #1c1e53;
+  background-color: var(--primary_color);
+  margin-left: -24px;
+}
+#inquiry_part .inquiry_right .inquiry_text {
+  padding: 85px 90px 33px;
+}
+#inquiry_part .inquiry_right .inquiry_text .h3_text h3 {
+  color: var(--white_color, #fff);
+  font-family: var(--Poppins);
+  font-size: 32px;
+  font-weight: 500;
+}
+#inquiry_part .inquiry_right .inquiry_text .h3_text p {
+  color: var(--white_color);
+  font-family: var(--Poppins);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.9;
+}
+#inquiry_part .inquiry_right .inquiry_text .form_text .custom_mail {
+  background: var(--primary_color);
+}
+#inquiry_part
+  .inquiry_right
+  .inquiry_text
+  .form_text
+  .custom_mail::placeholder {
+  color: var(--white_color, #f4f6fc) !important;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#inquiry_part .inquiry_right .Button_box .custom_button {
+  border-radius: 41px;
+  background: var(--button_color);
+  color: var(--secondary_color, #1b1c2b);
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+#inquiry_part .inquiry_right .Button_box a {
+  color: var(--white_color, #fff);
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 22%;
 }
 /* =============  inquiry part css end =========== */
+/* =============  blog part css start =========== */
+#blog_part {
+  padding: 100px 0;
+}
+#blog_part .blog_heading h2 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+}
+#blog_part .client_deteils .data1 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+}
+#blog_part .client_deteils h4 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#blog_part .client_deteils .text2 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#blog_part .client_deteils a {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+}
+/* =============  blog part css end =========== */
