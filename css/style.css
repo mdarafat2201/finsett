@@ -478,3 +478,10 @@ li {
   font-weight: 500;
 }
 /* =============  blog part css end =========== */
+/* =============  footer part css start =========== */
+#footer_part {
+  padding: 100px 0;
+  background: var(--primary_color);
+}
+
+/* =============  footer part css end =========== */
