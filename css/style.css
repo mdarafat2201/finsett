@@ -483,5 +483,121 @@ li {
   padding: 100px 0;
   background: var(--primary_color);
 }
+#footer_part .footer_left p {
+  color: var(--white_color, #fff);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 22px;
+  opacity: 0.8;
+}
+#footer_part .footer_left .footer_contact {
+  margin-top: 86px;
+  background-color: var(--button_color);
+}
+#footer_part .footer_left .footer_contact .contact ul li .text_titel {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 22px;
+}
+#footer_part .footer_left .footer_contact .contact ul li .type_email {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+}
+#footer_part .footer_right h2 {
+  color: var(--white_color, #fff);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+}
+#footer_part .footer_right p {
+  color: var(--white_color, #f4f6fc);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+#footer_part .footer_right .icons {
+  margin-top: 40px;
+}
+#footer_part .footer_right .icons a {
+  margin-left: 10px;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-facebook"] {
+  width: 40px;
+  height: 40px;
+  background-color: #3d6d9c;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-facebook"]:hover {
+  background: rgb(128, 124, 0);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-twitter"] {
+  width: 40px;
+  height: 40px;
+  background-color: #983333;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-twitter"]:hover {
+  background: rgb(21, 0, 128);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-instagram"] {
+  width: 40px;
+  height: 40px;
+  background-color: #4c9833;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-instagram"]:hover {
+  background: rgb(96, 128, 0);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-linkedin-in"] {
+  width: 40px;
+  height: 40px;
+  background-color: #603398;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-linkedin-in"]:hover {
+  background: green;
+  color: #fff;
+  transform: translateY(-30%);
+}
 
 /* =============  footer part css end =========== */
+/* =============  footer nav part css start =========== */
+#footer_nav_part .naver_text {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+}
+#footer_nav_part .custom_navbar li a {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+}
+/* =============  footer nav part css end =========== */
