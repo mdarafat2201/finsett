@@ -38,4 +38,14 @@
   }
 
   /* ============= responsive navbar css end =========== */
+
+  /* ============= responsive  Features part css start =========== */
+  #Features_part .headinag h2 {
+    font-size: 39px;
+    line-height: 52px;
+  }
+  #Features_part .icon_box {
+    margin-top: 30px;
+  }
+  /* ============= responsive  Features part css end =========== */
 }
