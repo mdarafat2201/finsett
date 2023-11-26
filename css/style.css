@@ -45,6 +45,10 @@ li {
   background: var(--primary_color);
   padding: 32px 0 100px;
 }
+#navbar_part .cutomnav {
+  background-color: var(--button_color);
+  box-shadow: none;
+}
 #navbar_part .custom_navbar li a {
   color: var(--white_color);
   font-family: var(--Poppins);
