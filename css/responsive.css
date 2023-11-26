@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+  /* ============= responsive navbar css start =========== */
+  #navbar_part .view_work {
+    padding: 15px 36px;
+  }
+  /* ============= responsive navbar css end =========== */
+}
+@media (min-width: 768px) {
+  ...;
+}
