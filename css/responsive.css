@@ -1,12 +1,15 @@
-@media (min-width: 992px) {
+@media (max-width: 1199.98px) {
   /* ============= responsive navbar css start =========== */
   #navbar_part .view_work {
     padding: 15px 36px;
   }
   /* ============= responsive navbar css end =========== */
 }
-@media (min-width: 768px) {
+@media (max-width: 991.98px) {
   /* ============= responsive navbar css start =========== */
+  #navbar_part .itemcontainer {
+    margin-top: 20px;
+  }
   #navbar_part .custom_navbar li a {
     background-color: var(--button_color);
     margin: 10px 0;
@@ -14,5 +17,25 @@
     color: var(--secondary_color);
     border-radius: 6px;
   }
+  #navbar_part .btn {
+    width: 100%;
+  }
+  #navbar_part .banner_left h1 {
+    font-size: 32px;
+  }
+  #navbar_part .banner_left p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #navbar_part .view_work {
+    border-radius: 11px;
+  }
+  #navbar_part .view_pricing a {
+    background-color: var(--button_color);
+    padding: 15px 36px;
+    border-radius: 11px;
+  }
+
   /* ============= responsive navbar css end =========== */
 }
