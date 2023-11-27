@@ -39,13 +39,62 @@
 
   /* ============= responsive navbar css end =========== */
 
-  /* ============= responsive  Features part css start =========== */
+  /* =============   Features part css responsive start =========== */
   #Features_part .headinag h2 {
     font-size: 39px;
     line-height: 52px;
   }
   #Features_part .icon_box {
     margin-top: 30px;
+    text-align: center;
   }
-  /* ============= responsive  Features part css end =========== */
+  #Features_part .icon_box h3 {
+    margin-top: 12px;
+  }
+  #Features_part .icon_box p {
+    text-align: center;
+  }
+  /* =============  Features part css responsive css end =========== */
+  /* ============= client part  responsive css start =========== */
+  #client_part {
+    padding: 0;
+  }
+  #client_part .client_right h4 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  /* ============= client part responsive css end =========== */
+  /* ============= faq part responsive css start =========== */
+
+  #faq_part .faq_left h3 {
+    font-size: 36px;
+  }
+  #faq_part .accordion_part .accordion_text_right span {
+    padding-right: 52px;
+  }
+  /* ============= faq part responsive css end =========== */
+  /* ============= inquiry part responsive css start =========== */
+  #inquiry_part {
+    padding: 0px 0;
+  }
+  #inquiry_part .inquiry_left img {
+    width: 110%;
+  }
+  #inquiry_part .inquiry_right .inquiry_text .h3_text h3 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  #inquiry_part .inquiry_right .inquiry_text .h3_text p {
+    font-size: 18px;
+  }
+  #inquiry_part .inquiry_right .Button_box a {
+    border-radius: 41px;
+    background: var(--button_color);
+    color: var(--secondary_color, #1b1c2b);
+    padding: 6px 178px;
+  }
+
+  /* ============= inquiry part responsive css end =========== */
+  /* ============= footer part responsive css start =========== */
+  /* ============= footer part responsive css end =========== */
 }
