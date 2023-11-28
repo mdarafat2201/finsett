@@ -116,3 +116,14 @@
   }
   /* ============= footer nav part responsive css end =========== */
 }
+@media (max-width: 767.98px) {
+  /* ============= navbar responsive css start =========== */
+  #navbar_part .banner_left h1 {
+    font-size: 23px;
+  }
+  #navbar_part .view_pricing a {
+    width: 100%;
+    margin: 20px 0;
+  }
+  /* ============= navbar responsive css end =========== */
+}
