@@ -126,4 +126,18 @@
     margin: 20px 0;
   }
   /* ============= navbar responsive css end =========== */
+  /* ============= work_part responsive css start =========== */
+  #work_part .work_left_side h1 {
+    font-size: 40px;
+  }
+  #work_part .work_left_side p {
+    font-size: 14px;
+  }
+  #work_part .Strategy h2 {
+    font-size: 30px;
+  }
+  #work_part .Strategy p {
+    font-size: 11px;
+  }
+  /* ============= work_part responsive css end =========== */
 }
