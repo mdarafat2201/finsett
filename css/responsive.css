@@ -96,5 +96,23 @@
 
   /* ============= inquiry part responsive css end =========== */
   /* ============= footer part responsive css start =========== */
+  #footer_part .footer_left p {
+    font-size: 20px;
+  }
+  #footer_part .footer_left .footer_contact {
+    margin-top: 30px;
+  }
+  #footer_part .footer_right {
+    text-align: center;
+  }
   /* ============= footer part responsive css end =========== */
+  /* ============= footer nav part responsive css start =========== */
+  #footer_nav_part .custom_navbar li a {
+    background-color: var(--button_color);
+    margin: 10px 0;
+    text-align: center;
+    color: var(--secondary_color);
+    border-radius: 6px;
+  }
+  /* ============= footer nav part responsive css end =========== */
 }

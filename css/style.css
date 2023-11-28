@@ -592,6 +592,10 @@ li {
 
 /* =============  footer part css end =========== */
 /* =============  footer nav part css start =========== */
+#footer_nav_part .cutomnavber {
+  background-color: var(--button_color);
+  box-shadow: none;
+}
 #footer_nav_part .naver_text {
   color: var(--secondary_color, #282938);
   font-family: var(--Poppins);
