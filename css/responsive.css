@@ -154,6 +154,11 @@
     font-size: 20px;
   }
   /* ============= client part responsive css end =========== */
+  /* ============= faq part responsive css sater =========== */
+  #faq_part .accordion_part .accordion_text_right span {
+    padding-right: 27px;
+  }
+  /* ============= faq part responsive css end =========== */
   /* ============= project part responsive css end =========== */
   #inquiry_part .inquiry_right .Button_box a {
     padding: 6px 88px;
