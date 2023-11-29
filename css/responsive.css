@@ -159,10 +159,20 @@
     padding-right: 27px;
   }
   /* ============= faq part responsive css end =========== */
-  /* ============= project part responsive css end =========== */
+  /* ============= inquiry  part responsive css start =========== */
   #inquiry_part .inquiry_right .Button_box a {
     padding: 6px 88px;
     width: 100%;
   }
-  /* ============= project part responsive css end =========== */
+  /* ============= inquiry  part responsive css end =========== */
+  /* ============= blog  part responsive css start =========== */
+  #blog_part .blog_heading h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  #blog_part .client_1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /* ============= blog  part responsive css end =========== */
 }
