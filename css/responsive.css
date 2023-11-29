@@ -126,7 +126,7 @@
     margin: 20px 0;
   }
   /* ============= navbar responsive css end =========== */
-  /* ============= work_part responsive css start =========== */
+  /* ============= work part responsive css start =========== */
   #work_part .work_left_side h1 {
     font-size: 40px;
   }
@@ -139,5 +139,25 @@
   #work_part .Strategy p {
     font-size: 11px;
   }
-  /* ============= work_part responsive css end =========== */
+  /* ============= work part responsive css end =========== */
+  /* ============= project part responsive css end =========== */
+  #project_part .small_img img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  /* ============= project part responsive css end =========== */
+  /* ============= client part responsive css start =========== */
+  #client_part .client_left h2 {
+    font-size: 34px;
+  }
+  #client_part .client_right h4 {
+    font-size: 20px;
+  }
+  /* ============= client part responsive css end =========== */
+  /* ============= project part responsive css end =========== */
+  #inquiry_part .inquiry_right .Button_box a {
+    padding: 6px 88px;
+    width: 100%;
+  }
+  /* ============= project part responsive css end =========== */
 }
