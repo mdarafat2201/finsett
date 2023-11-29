@@ -183,4 +183,25 @@
     line-height: 43px;
   }
   /* ============= navbar  part responsive css end =========== */
+  /* ============= work  part responsive css end =========== */
+  #work_part .work_left_side h1 {
+    font-size: 37px;
+    margin-bottom: 30px;
+  }
+  #work_part .work_left_side a {
+    font-size: 13px;
+  }
+  #work_part .Strategy {
+    text-align: center;
+  }
+  #work_part .cmotem-work {
+    margin-top: 30px;
+  }
+  /* ============= work  part responsive css end =========== */
+  /* ============= project   part responsive css end =========== */
+  #project_part .text_left h3 {
+    font-size: 27px;
+    margin-bottom: 30px;
+  }
+  /* ============= project   part responsive css end =========== */
 }
