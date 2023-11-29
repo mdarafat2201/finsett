@@ -253,4 +253,25 @@
     line-height: 23px;
   }
   /* ============= faq part responsive css end =========== */
+  /* ============= inquiry part responsive css start =========== */
+  #inquiry_part .inquiry_left .text_titel .hadig_text h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  #inquiry_part .inquiry_left .text_titel .hadig_text p {
+    font-size: 11px;
+    line-height: 19px;
+  }
+  #inquiry_part .inquiry_right .inquiry_text .h3_text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #inquiry_part .inquiry_right .Button_box a {
+    border-radius: 41px;
+    background: none;
+    color: var(--secondary_color, #1b1c2b);
+    padding: 6px 0px;
+    color: var(--white_color);
+  }
+  /* ============= inquiry part responsive css end =========== */
 }
