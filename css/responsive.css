@@ -216,6 +216,8 @@
     font-size: 13px;
     line-height: 24px;
   }
+  /* ============= Features part responsive css end =========== */
+  /* ============= client part responsive css start =========== */
   #client_part .client_left h2 {
     font-size: 30px;
     line-height: 46px;
@@ -231,5 +233,24 @@
   #client_part .client_right .comtoem_client {
     margin-top: 20px;
   }
-  /* ============= Features part responsive css end =========== */
+  /* ============= client part responsive css end =========== */
+  /* ============= faq part responsive css start =========== */
+  #faq_part .faq_left h3 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+  #faq_part .faq_left a {
+    font-size: 13px;
+  }
+  #faq_part .accordion_part .accordion_text_right span {
+    padding-right: 17px;
+  }
+  #faq_part .accordion_part .accordion_text_right {
+    font-size: 21px;
+  }
+  #faq_part .accordion_part .overlay_text {
+    font-size: 11px;
+    line-height: 23px;
+  }
+  /* ============= faq part responsive css end =========== */
 }
