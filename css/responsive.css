@@ -177,13 +177,13 @@
   /* ============= blog  part responsive css end =========== */
 }
 @media (max-width: 575.98px) {
-  /* ============= navbar  part responsive css end =========== */
+  /* ============= navbar  part responsive css start =========== */
   #navbar_part .banner_left h1 {
     font-size: 20px;
     line-height: 43px;
   }
   /* ============= navbar  part responsive css end =========== */
-  /* ============= work  part responsive css end =========== */
+  /* ============= work  part responsive css start =========== */
   #work_part .work_left_side h1 {
     font-size: 37px;
     margin-bottom: 30px;
@@ -198,10 +198,38 @@
     margin-top: 30px;
   }
   /* ============= work  part responsive css end =========== */
-  /* ============= project   part responsive css end =========== */
+  /* ============= project   part responsive css start =========== */
   #project_part .text_left h3 {
     font-size: 27px;
     margin-bottom: 30px;
   }
   /* ============= project   part responsive css end =========== */
+  /* ============= Features part responsive css start =========== */
+  #Features_part .headinag h6 {
+    font-size: 13px;
+  }
+  #Features_part .headinag h2 {
+    font-size: 19px;
+    line-height: 31px;
+  }
+  #Features_part .icon_box p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  #client_part .client_left h2 {
+    font-size: 30px;
+    line-height: 46px;
+  }
+  #client_part .client_left p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  #client_part .client_right h4 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #client_part .client_right .comtoem_client {
+    margin-top: 20px;
+  }
+  /* ============= Features part responsive css end =========== */
 }
