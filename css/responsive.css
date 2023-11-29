@@ -176,3 +176,11 @@
   }
   /* ============= blog  part responsive css end =========== */
 }
+@media (max-width: 575.98px) {
+  /* ============= navbar  part responsive css end =========== */
+  #navbar_part .banner_left h1 {
+    font-size: 20px;
+    line-height: 43px;
+  }
+  /* ============= navbar  part responsive css end =========== */
+}
