@@ -262,6 +262,9 @@
     font-size: 11px;
     line-height: 19px;
   }
+  #inquiry_part .inquiry_right .inquiry_text .h3_text h3 {
+    font-size: 30px;
+  }
   #inquiry_part .inquiry_right .inquiry_text .h3_text p {
     font-size: 14px;
     line-height: 24px;
@@ -274,4 +277,39 @@
     color: var(--white_color);
   }
   /* ============= inquiry part responsive css end =========== */
+  /* ============= blog part responsive css start =========== */
+  #blog_part .client_deteils h4 {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  #blog_part .client_deteils .text2 {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  /* ============= blog part responsive css end =========== */
+  /* ============= footer part responsive css start =========== */
+
+  #footer_part .footer_left p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  #footer_part .footer_left .footer_contact {
+    margin-top: 50px;
+    background: none;
+    display: none;
+  }
+  #footer_part .footer_left .footer_contact .contact {
+    background: var(--button_color);
+    margin-bottom: 20px;
+  }
+  #footer_part .footer_right p {
+    font-size: 10px;
+    line-height: 22px;
+  }
+  /* ============= footer part responsive css end =========== */
+  /* ============= footer nav part responsive css start =========== */
+  #footer_nav_part .naver_text {
+    font-size: 11px;
+  }
+  /* ============= footer nav part responsive css end =========== */
 }
